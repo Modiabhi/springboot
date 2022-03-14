@@ -1,0 +1,18 @@
+package com.example.demo;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+@RestController
+public class EmployeeController {
+@GetMapping("/employees")
+public Iterable<Employee> getAllEmployees(){
+return null;
+}
+@GetMapping("/employees/{empId}")
+public ResponseEntity<Employee> getEmployeeById(@PathVariable("empId")Integer employeeId){
+return null;
+}
+}
+

@@ -1,0 +1,9 @@
+package com.example.demo;
+
+public class Employee {
+private Integer empId;
+private Double empSalary;
+private String empName;
+private String empJob;
+private String empDepartment;
+}
